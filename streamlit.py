@@ -9,6 +9,5 @@ descricao.text("Esta aplicação foi desenvolvida para que pudesse facilitar a v
 st.subheader("Visualização da média das notas pela idade.")
 fig, medianotas = media_notas_idade()
 st.pyplot(fig)
-st.dataframe(medianotas)
-st.markdown("Este gráfico mostra a média da nota G3 pela idade." "Pode-se perceber que ao envelhecer, as notas tendem a diminuir.")
+st.markdown("Este gráfico mostra a média da nota G3 pela idade." "Pode-se perceber que ao envelhecer, as notas tendem a diminuir, porém aos 20 anos os jovens aparentam estar mais dedicados.")
 
