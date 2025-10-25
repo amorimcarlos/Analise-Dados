@@ -8,3 +8,5 @@ descricao.text("Esta aplicação foi desenvolvida para que pudesse facilitar a v
 
 st.subheader("Visualização das médias das notas pela idade.")
 grafico1 = media_notas_idade()
+
+grafico1.dataframe(media_notas_idade())
