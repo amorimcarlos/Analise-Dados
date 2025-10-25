@@ -6,7 +6,9 @@ st.title("Como o consumo de álcool pode afetar diretamente o desempenho escolar
 descricao = st.container(border= True)
 descricao.text("Esta aplicação foi desenvolvida para que pudesse facilitar a visualização dos dados implementados")
 
-st.subheader("Visualização das médias das notas pela idade.")
-fig,df = media_notas_idade()
+st.subheader("Visualização da média das notas pela idade.")
+fig, medianotas = media_notas_idade()
 st.pyplot(fig)
-st.dataframe(df)
+st.dataframe(medianotas)
+st.markdown("Este gráfico mostra a média da nota G3 pela idade." "Pode-se perceber que ao envelhecer, as notas tendem a diminuir.")
+

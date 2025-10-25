@@ -12,3 +12,4 @@ print(df.info())
 print(fd.info())
 
 #Pode-se perceber que não há válidos nulos.
+#Logo, não é preciso fazer a limpeza dos dados.
