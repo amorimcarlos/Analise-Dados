@@ -61,7 +61,7 @@ def media_notas_alcool():
 
 media_notas_alcool()
 
-#Calcular faltas por idade:
+#Calcular a média faltas por idade:
 def faltas_idades():
     faltasIdades = df.groupby('age')['absences'].mean().reset_index()
     fig4, ax = plt.subplots()
