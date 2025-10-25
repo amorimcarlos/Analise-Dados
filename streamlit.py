@@ -7,6 +7,6 @@ descricao = st.container(border= True)
 descricao.text("Esta aplicação foi desenvolvida para que pudesse facilitar a visualização dos dados implementados")
 
 st.subheader("Visualização das médias das notas pela idade.")
-grafico1 = media_notas_idade()
-
-grafico1.dataframe(media_notas_idade())
+fig,df = media_notas_idade()
+st.pyplot(fig)
+st.dataframe(df)
