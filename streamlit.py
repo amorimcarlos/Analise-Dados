@@ -40,7 +40,7 @@ st.subheader("Visualização da média das notas pelo consumo de álcool semanal
 
 fig6, faltasidadeSemanal = faltas_alcool_idadeSemanal()
 st.pyplot(fig6)
-st.markdown("Este gráfico mostra a média das notas pelo consumo de álcool diário por idade")
+st.markdown("Este gráfico mostra a média das notas pelo consumo de álcool semanal por idade")
 
 
 
