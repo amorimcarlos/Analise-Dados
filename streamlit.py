@@ -1,5 +1,5 @@
 import streamlit as st
-from análise import *
+from analise import *
 
 st.title("Como o consumo de álcool pode afetar diretamente o desempenho escolar de adolescentes")
 
