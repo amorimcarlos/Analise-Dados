@@ -16,3 +16,9 @@ st.subheader("Visualização da média do consumo de álcool entre as idades ")
 fig2, media_alcoolM = media_alcool_idade()
 st.pyplot(fig2)
 st.markdown("Este gráfico mostra a média do consumo de álcool entre as idades.")
+
+st.subheader("Visualização da média das notas pelo consumo de álcool")
+
+fig3, medianotasM = media_notas_alcool()
+st.pyplot(fig3)
+st.markdown("Este gráfico mostra a média do consumo de álcool entre as idades.")
