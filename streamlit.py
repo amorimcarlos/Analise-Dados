@@ -1,4 +1,4 @@
 import streamlit as st
-from Graficos import *
+from análise import *
 
 st.title 
