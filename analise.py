@@ -50,7 +50,7 @@ def media_notas_alcool():
     medianotasM = medialcool.melt(id_vars = 'G3', value_vars = ['Dalc', 'Walc'], var_name = 'Tipo', value_name = 'Consumo Médio')
 
     fig3, ax = plt.subplots(figsize=(8,5))
-    sns.barplot(data=medianotasM, x='Consumo Médio', y='G3', hue='Tipo', palette='viridis', ax = ax) #Plotando o grafico agora "alongado"
+    sns.barplot(data=medianotasM, y='G3', x='Consumo Médio', hue='Tipo', palette='viridis', ax = ax, orient= 'h') #Plotando o grafico agora "alongado"
 
     ax.set_title("Consumo médio de álcool diário e semanal por notas")
     ax.set_xlabel("Notas")
