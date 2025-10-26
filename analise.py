@@ -80,7 +80,7 @@ def faltas_alcool_idadeDiario():
     
 
     fig5, ax = plt.subplots(figsize= (10,6))
-    sns.scatterplot(data = faltasidadeDiario, x = 'age', y=  'G3', hue = 'Dalc', palette= 'viridis',size = 'Dalc' ,sizes=(50, 300), ax = ax)
+    sns.scatterplot(data = faltasidadeDiario, x = 'G3', y=  'age', hue = 'Dalc', palette= 'viridis',size = 'Dalc' ,sizes=(50, 300), ax = ax)
     
     ax.set_title("Média das notas por idade e consumo de álcool")
     ax.set_xlabel("Idade")
@@ -98,7 +98,7 @@ def faltas_alcool_idadeSemanal():
     
 
     fig6, ax = plt.subplots(figsize= (10,6))
-    sns.scatterplot(data = faltasidadeSemanal, x = 'age', y=  'G3', hue = 'Walc', palette= 'viridis',size = 'Walc' ,sizes=(50, 300), ax = ax)
+    sns.scatterplot(data = faltasidadeSemanal, x = 'G3', y=  'age', hue = 'Walc', palette= 'viridis',size = 'Walc' ,sizes=(50, 300), ax = ax)
     
     ax.set_title("Média das notas por idade e consumo de álcool")
     ax.set_xlabel("Idade")
